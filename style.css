@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: purple;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    border-bottom: 2px solid purple;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+.remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px; /* Espaço entre o texto do jogo e o botão */
+}
+
+.remove-button:hover {
+    background-color: darkred;
+}

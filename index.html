@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista Gamer</title>
+</head>
+<body>
+    <header>
+        <h1>Gamer List</h1>
+    </header>
+    <main>
+        <section id="jogos-zerados">
+            <h2>Jogos Zerados</h2>
+            <input type="text" id="nome-jogo-zerado" placeholder="Nome do Jogo Zerado">
+            <button onclick="adicionarJogo('zerado')">Adicionar Jogo Zerado</button>
+            <ul id="lista-zerados"></ul>
+        </section>
+        <section id="jogos-em-andamento">
+            <h2>Jogos em Andamento</h2>
+            <input type="text" id="nome-jogo-andamento" placeholder="Nome do Jogo em Andamento">
+            <button onclick="adicionarJogo('andamento')">Adicionar Jogo em Andamento</button>
+            <ul id="lista-andamento"></ul>
+        </section>
+        <section id="jogos-jogados">
+            <h2>Jogos Jogados</h2>
+            <input type="text" id="nome-jogo-jogado" placeholder="Nome do Jogo Jogado">
+            <button onclick="adicionarJogo('jogado')">Adicionar Jogo Jogado</button>
+            <ul id="lista-jogados"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
